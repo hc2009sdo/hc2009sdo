@@ -1,0 +1,130 @@
+.footer_nav{
+	border-bottom: 1px solid #dedede;
+}
+.nav_title{
+	width: 235px;
+	height: 105px;
+	margin-left: 36px;
+	float: left;
+	margin-right: 20px;
+}
+.footer_img{
+	width: 36px;
+	height: 42px;
+	line-height: 42px;
+	float: left;
+	margin-top: 30px;
+}
+.footer_img1{
+	background: url(../images/img/footer1.png) no-repeat 0 -191px;
+}
+.footer_img2{
+	background: url(../images/img/footer1.png) no-repeat -41px -191px;
+}
+.footer_img3{
+	background: url(../images/img/footer1.png) no-repeat -82px -191px;
+}
+.footer_img4{
+	background: url(../images/img/footer1.png) no-repeat -123px -191px;
+}
+.nav_title p{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 40px;
+	line-height: 105px;
+}
+.footer_list{
+	height: 200px;
+	border-bottom: 1px solid #e4e5e4;
+	overflow: hidden;
+}
+.list_service{
+	float: left;
+	width: 230px;
+}
+.list_service p{
+	font-size: 16px;
+	margin: 20px 0 5px;
+	color: #666666;
+}
+.list_service a{
+	font-size: 12px;
+	color: #666666;
+	line-height: 24px;
+}
+.list_pos{
+	background: url(../images/img/footer2.png) no-repeat 25px 25px;
+}
+.list_view{
+	float: right;
+}
+.list_county{
+	margin-bottom: 15px;
+}
+.footer_contact{
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.footer_contact a{
+	font-size: 12px;
+	color: #6f6f6f;
+}
+.footer_contact span{
+	color: #e3d8ce;
+	margin: 0 5px 0;
+}
+.footer_copy{
+	text-align: center;
+}
+.copy_text span{
+	color: #d2d8df;
+}
+.copy_text a{
+	line-height: 28px;
+}
+.copybg{
+	width: 12px;
+	height: 12px;
+	padding-left: 10px;
+	display: inline-block;
+}
+.global{
+	background: url(../images/img/footer1.png) no-repeat -105px -155px;
+}
+.pocc{
+	background: url(../images/img/footer1.png) no-repeat -168px -155px;
+}
+.situs{
+	background: url(../images/img/footer1.png) no-repeat -146px -155px;
+}
+.sitio{
+	background: url(../images/img/footer1.png) no-repeat -126px -155px;
+}
+.country_icon{
+	background: url(../images/img/footer1.png) no-repeat -107px -172px;
+}
+.copy_icon{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.last_icon{
+	display: inline-block;
+	width: 90px;
+	height: 28px;
+}
+.credit{
+	background: url(../images/img/footer1.png) no-repeat -210px -113px;
+}
+.police{
+	background: url(../images/img/footer1.png) no-repeat -210px -76px;
+}
+.honest{
+	background: url(../images/img/footer1.png) no-repeat -210px -38px;
+}
+.report{
+	background: url(../images/img/footer1.png) no-repeat -210px -2px;
+}
+.app{
+	background: url(../images/img/footer1.png) no-repeat 0 -156px;
+}
