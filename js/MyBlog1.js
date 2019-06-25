@@ -129,5 +129,5 @@ $('#text').click(function(){
 });
 
 $('#download').click(function(){
-	window.open("pdf/何春前端开发简历.pdf");
+	window.open("https://raw.githubusercontent.com/hc2009sdo/hc2009sdo.github.io/master/pdf/%E4%BD%95%E6%98%A5%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%AE%80%E5%8E%86.pdf");
 });

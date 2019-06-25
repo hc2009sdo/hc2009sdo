@@ -254,7 +254,7 @@ body{
 }
 
 .a_link:link{
-	color: red;
+	color: blue;
 }
 .a_link:visited{
 	color: blue;
