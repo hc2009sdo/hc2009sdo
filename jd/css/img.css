@@ -1,0 +1,39 @@
+#box1{
+	width: 610px;
+	height: 470px;
+	background-color: pink;
+	margin: 50px auto;
+	padding: 10px 0;
+	position: relative;
+	overflow: hidden;
+}
+.img_list{
+	position: absolute;
+}
+.img_list img{
+	float: left;
+	margin: 0 10px;
+}
+.img_a{
+	position: absolute;
+	bottom: 15px;
+}
+.img_a a{
+	width: 15px;
+	height: 15px;
+	background-color: greenyellow;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	float: left;
+	margin: 0 5px;
+}
+.img_a a:hover{
+	background-color: black;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.img_a .a_bg{
+	background-color: black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
