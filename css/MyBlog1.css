@@ -55,6 +55,17 @@ body{
 	width: 100%;
 	height: 100%;
 }
+#download{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+#download:hover{
+	color: blue;
+}
+#download{
+	color: red;
+}
 /*headerEnd*/
 /*contentStr*/
 .content{
@@ -241,8 +252,15 @@ body{
 	color: #fff;
 	font-weight: bold;
 }
-.a_color:hover{
+
+.a_link:link{
+	color: red;
+}
+.a_link:visited{
 	color: blue;
+}
+.a_color:hover{
+	color: red;
 }
 #job{
 	text-align: center;
@@ -268,9 +286,10 @@ body{
 	text-align: center;
 	margin-top: 10px;
 	font-size: 16px;
+	color: #2b7ca3;
 }
 .poj a:hover{
-	color: blue;
+	color: red;
 }
 .poj li{
 	width: 150px;

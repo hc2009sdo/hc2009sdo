@@ -1,40 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>HC</title>
-  <meta charset="uft-8">
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-    }
-    body{
-      width: 200px;
-      height: 100px
-      background: skyblue;
-      margin: 100px auto;
-    }
-   .box a{
-      color: black;
-      font-size: 16px;
-    }
-    .box a:hover{
-      color: pink;
-    }
-  </style>
-</head>
-<body>
-   <div class="box">
-    <a href="../html/b2.html">欢迎来到我的频道</a>
-  </div>
-<div class= "music">
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 
-  	src="//music.163.com/outchain/player?type=2&id=16532462&auto=1&height=66"></iframe>
-</div>
-<div class="music1">
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 
-	src="//music.163.com/outchain/player?type=2&id=29011548&auto=0&height=66"></iframe>
-</div>
-  <script src=""><script>
-</body>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/Reset.css">
+		<link rel="stylesheet" href="css/MyBlog1.css">
+	</head>
+	<script src="js/jquery-1.12.4.js"></script>
+	<body>
+		<!-- headerStr -->
+		<div class="header" id="heaDer">
+			<div class="inner_c">
+				<a class="logoL" href="#"><img src="jd/images/logo/logo.png"></a>
+			</div>
+			<ul class="nav">
+					<li class="show">展示</li>
+					<li>NoThing</li>
+					<li>NoThing</li>
+					<li>NoThing</li>
+				</ul>
+				<ul class="nav nav_a">
+					<li class="show">栏目</li>
+					<li>NoThing</li>
+				</ul>
+				<ul class="nav nav_a">
+					<li class="show">下载PDF简历</li>
+					<li><a id="download" href="#">DownLoad</a></li>
+				</ul>
+		</div>
+		<!-- headerEnd -->
+		<!-- contentStr -->
+		<div id="conTent" class="inner_c">
+			<div class="content">
+				<div class="message">
+					<h1 class="myicon"><img src="jd/images/logo/logo.jpg"></h1>
+						<p class="hc">何春</p>
+					<div class="myname">
+						<p>性别 : 男</p>
+						<p>邮箱 : <a class="a_color a_link" href="#" id="email" title="邮箱">hechuncpit@163.com</a></p>
+					</div>
+					<div class="mymessage" id="mymessage">
+						<a id="mg" href="javascript:;" title="个人信息">个人信息</a>
+						<a id="jb" href="javascript:;" title="工作经历">工作经历</a>
+						<a id="ex" href="javascript:;" title="项目经验">项目经验</a>
+						<a id="jo" href="javascript:;" title="投递职位">投递职位</a>
+					</div>
+					<div class="impression" id="impression" title="点击删除">
+						<p class="del" title="学习热情">学习热情</p>
+						<p class="del" title="HTML">HTML</p>
+						<p class="del" title="CSS">CSS</p>
+						<p class="del" title="JS">JS</p>
+					</div>
+					<form id="sub" action="">
+						印象测试：<input type="text" name="impression">
+						<button id="btn">添加</button>
+					</form>
+				</div>
+				<div class="poject">
+					<div id="a_list">
+						<a class="a_bg"href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+					</div>
+					<div id="inner_w">
+					<div id="mymessage_w" class="mytitle">
+						<h3>个人信息</h3>
+						<ul class="name">
+							<li title="姓名">姓名：何春</li>
+							<li title="邮箱">个人邮箱：hechuncpit@163.com</li>
+							<li title="性别">性别：男</li>
+							<li title="工作经验">工作经验：4年</li>
+							<li title="年龄">年龄：26</li>
+							<li title="电话">电话：<a id="phone" class="a_color" href="javacript:;">15073443595</a></li>
+						</ul>
+						<h3>教育背景</h3>
+						<ul class="name">
+							<li title="">学校名称：湖南工商职业学院</li>
+							<li title="">就读时间：2011.9-2014.6</li>
+							<li title="">所学专业：工商管理</li>
+							<li title="">学历学位：大专</li>
+						</ul>
+					</div>
+					<div class="mytitle" id="job">
+						<h3>工作经历</h3>
+						<p>2014年7月就业于湖南省永州市道县法院书记员，现已于今年3月离职</p>
+						<p>负责档案扫描上传，管理所在庭室的网络系统</p>
+						<p>记录庭审过程，学习管理庭室网站</p>
+					</div>
+					<div class="mytitle" id="experience">
+						<h3>项目经验</h3>
+						<ul class="poj">
+							<li>
+								<img id="img1" src="jd/images/img/jd_jm.png" title="图片预览">
+								<p>仿制京东静态页面</p>
+								<p><a class="a_link" target="blank" href="jd/html/jdWeb.html" title="点击跳转">跳转查看</a></p>
+							</li>
+							<li>
+								<img id="img2" src="jd/images/img/imgplay.png" title="图片预览">
+								<p>轮播图</p>
+								<p><a class="a_link" target="black" href="jd/html/img.html" title="点击跳转">跳转查看</a></p>
+							</li>
+						</ul>
+					</div>
+					<div id="works" class="mytitle">
+						<h3>投递职位</h3>
+						<h5>前端工程师</h5>
+						<p>工作地点：上海</p>
+						<h3>擅长技术</h3>
+						<p>HTML CSS</p>
+						<P>javaScript</P>
+					</div>
+					
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- contentEnd -->
+		<div id="fooTer" class="footer">
+			<div class="inner_c">
+				<ul class="footer_list">
+					<li>希望做一个前端开发工程师</li>
+					<li>能努力学习，理解并掌握新特性</li>
+				</ul>
+				<div class="copy">Copyright &copy 2019 <span>hechuncpit@163.com</span></div>
+			</div>
+		</div>
+		<script src="js/MyBlog1.js"></script>
+	</body>
 </html>

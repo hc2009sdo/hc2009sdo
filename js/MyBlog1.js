@@ -112,10 +112,10 @@ innerW.style.width =(100 + 600) * myTitle.length + "px";
 
 var img1 = document.getElementById("img1");
 img1.onclick = function(){
-	window.open("../images/img/jd_jm.png");
+	window.open("jd/images/img/jd_jm.png");
 };
 $('#img2').click(function(){
-	window.open("../images/img/imgplay.png");
+	window.open("jd/images/img/imgplay.png");
 });
 
 
@@ -126,4 +126,8 @@ email.onclick = function(){
 
 $('#text').click(function(){
 	alert("111");
+});
+
+$('#download').click(function(){
+	window.open("pdf/何春前端开发简历.pdf");
 });
